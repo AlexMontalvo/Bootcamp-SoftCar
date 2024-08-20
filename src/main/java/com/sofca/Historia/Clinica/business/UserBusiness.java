@@ -1,7 +1,7 @@
 package com.sofca.Historia.Clinica.business;
 
-import org.example.dto.UserDto;
-import org.example.manager.UserManager;
+import com.sofca.Historia.Clinica.dto.UserDto;
+import com.sofca.Historia.Clinica.manager.UserManager;
 
 public class UserBusiness {
     private UserManager userManager;

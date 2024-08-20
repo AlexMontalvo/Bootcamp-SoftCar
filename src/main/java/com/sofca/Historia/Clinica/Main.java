@@ -1,19 +1,17 @@
 package com.sofca.Historia.Clinica;
 
-import org.example.business.UserBusiness;
-import org.example.dao.*;
-import org.example.dto.EpsDto;
-import org.example.dto.UserDto;
-import org.example.manager.UserManager;
-import org.example.managerbd.PoolDb;
-
+import com.sofca.Historia.Clinica.business.UserBusiness;
+import com.sofca.Historia.Clinica.dao.*;
+import com.sofca.Historia.Clinica.dto.EpsDto;
+import com.sofca.Historia.Clinica.dto.UserDto;
+import com.sofca.Historia.Clinica.manager.UserManager;
+import com.sofca.Historia.Clinica.managerbd.PoolDb;
 import java.util.List;
-
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-                EpsI epsI = (EpsI) new EpsDaoImplement();
+               /* EpsI epsI = (EpsI) new EpsDaoImplement();
                 List<EpsDto> epsList = epsI.listarEps();
                 String idAEliminar = "01";
                 boolean eliminado = epsI.dleteEps(idAEliminar);
@@ -24,7 +22,7 @@ public class Main {
                     System.out.println("El EPS con ID: " + idAEliminar + " ha sido eliminado.");
                 } else {
                     System.out.println("No se encontró un EPS con el ID: " + idAEliminar);
-                }
+                }*/
                 // for (EpsDto eps : epsList) {
                 //   System.out.println("ID: " + eps.getId_eps() + ", Nombre: " + eps.getNombre());
                 //}

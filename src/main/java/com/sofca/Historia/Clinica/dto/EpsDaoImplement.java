@@ -1,13 +1,10 @@
-package com.sofca.Historia.Clinica.dao;
-
-import com.sofca.Historia.Clinica.EpsDto;
+package com.sofca.Historia.Clinica.dto;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class EpsDaoImplement {
-    public class EpsImplements implements EpsI{
+    public class EpsDaoImplement implements EpsI{
         @Override
         public List<EpsDto> listarEps() {
             List<EpsDto> eps = new ArrayList<>();
@@ -63,5 +60,3 @@ public class EpsDaoImplement {
 
     }
 
-
-}

@@ -1,6 +1,6 @@
 package com.sofca.Historia.Clinica.manager;
 
-import org.example.dto.UserDto;
+import com.sofca.Historia.Clinica.dto.UserDto;
 
 public class UserManager {
     public void Registrar(UserDto userDto)

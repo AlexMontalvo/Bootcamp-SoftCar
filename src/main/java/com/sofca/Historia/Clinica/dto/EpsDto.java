@@ -66,4 +66,5 @@ public class EpsDto {
     public void setHistorialClinico(int historialClinico) {
         this.historialClinico = historialClinico;
     }
+
 }
